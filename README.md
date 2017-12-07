@@ -16,6 +16,8 @@ Using the docker container to run something other than the Dockerfile CMD...
 
 ```bash
 docker run -it --entrypoint '/bin/bash' demo
+# or
+docker run -it -rm demo /bin/bash
 ```
 
 Using the docker container to run a rake task...
