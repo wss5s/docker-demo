@@ -1,6 +1,0 @@
-== README
-
-Building this demo app with docker:
-
-`docker build -t demo .`
-
